@@ -29,6 +29,13 @@ header {
   }
 }
 
+@media (max-width: 767px) {
+  .break::after {
+    content: "\A";
+    white-space: pre;
+  }
+}
+
 img {
   width: 100%;
   height: auto;
