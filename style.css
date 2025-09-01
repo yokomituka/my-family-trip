@@ -1,0 +1,328 @@
+@charset "utf-8";
+
+header {
+  text-align: center;
+  padding: 90px 0;
+  
+  font-size: 65px;
+  color: #c88f5c;
+  font-family: "Zen Old Mincho", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0;
+}
+
+.wrapper {
+  padding: 0 28px;
+  max-width: 1120px;
+  margin: 0 auto;
+
+  @media (min-width:768px) {
+    padding: 0;
+  }
+}
+
+.kamogawa{
+  @media (max-width:767px) {
+    margin-inline: calc(50% - 50vw);
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.jpg{
+  padding: 50px 0 50px;
+}
+
+section{
+  text-align: center;
+  margin: 50px 0 50px;
+
+  h1 {
+    font-size: 40px;
+    font-family: "Zen Old Mincho", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding-bottom: 20px;
+  }
+
+  h2{
+    font-size: 35px;
+    color: lightgreen;
+    font-family: "Zen Old Mincho", serif;
+  }
+
+  h3{
+    font-family: "Zen Old Mincho", serif;
+  }
+
+  h4{
+    font-family: "Zen Old Mincho", serif;
+  }
+
+  h5{
+    font-family: "Zen Old Mincho", serif;
+  }
+
+  p {
+    font-size: 20px;
+    padding: 10px 0 25px;
+  }
+
+  ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 32px;
+  margin-top: 38px;
+  padding-bottom: 50px;
+
+  @media (max-width: 767px) {
+    margin-top: 40px;
+  }
+  }
+
+  li {
+    width: calc((100% - 64px) / 3);
+    box-sizing: border-box;
+
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+  }
+}
+
+.day1asa{
+  h1{
+    color: lightblue;
+  }
+}
+
+.day1hiru{
+  h1{
+    color: orange;
+  }
+}
+
+.day1yuugata{
+  h1{
+    color: rgb(255, 102, 0);
+  }
+
+  h3{
+    font-size: 30px;
+  }
+
+  .button{
+    background-color: #009fee;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+}
+
+.heya{
+  h1{
+    font-size: 32px;
+    color: rgb(186, 88, 3);
+    font-family: "Zen Old Mincho", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding-bottom: 20px;
+  }
+
+  margin-bottom: 50px;
+}
+
+.day1yoru{
+  h1{
+    color: darkblue;
+  }
+
+  h3{
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+}
+
+.yuusyoku{
+  h1{
+    font-size: 32px;
+    color: brown;
+    font-family: "Zen Old Mincho", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding-bottom: 20px;
+  }
+
+  h3{
+    font-size: 30px;
+    color: rgb(0, 162, 162);
+  }
+
+  margin-bottom: 50px;
+}
+  
+.day2sinya{
+  h1{
+    color: rgb(0, 0, 89);
+  }
+
+  h3{
+    font-size: 30px;
+    color: rgba(0, 186, 186, 0.645);
+  }
+}
+
+.day2asa{
+  h1{
+    color: lightblue;
+  }
+  h3{
+    font-size: 30px;
+    color: rgb(210, 210, 0);
+  }
+}
+
+.day2hiru{
+  h1{
+    color: orange;
+  }
+
+  h3{
+    font-size: 30px;
+    color: rgb(0, 47, 255);
+  }
+
+  h4{
+    font-size: 20px;
+    color: #36acb5;
+  }
+
+  h5{
+    font-size: 20px;
+    color: #f0d5b4;
+    margin-bottom: 50px;
+  }
+}
+
+.umirejin {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 calc((64 / 1120) * 100%);
+  max-width: 1120px;
+  margin: auto;
+  margin-block-start: 64px;
+  margin-top: 112px;
+  margin-bottom: 50px;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    margin-top: 80px;
+  }
+
+  .jpg{
+    width: calc((680 / 1120) * 100%);
+
+    @media (max-width: 767px) {
+      width: auto;
+    }
+  }
+
+}
+
+.text {
+  width: calc((512 / 1120) * 100%);
+  margin-top: 50px;
+
+  @media (max-width: 767px) {
+    width: auto;
+    margin-top: 40px;
+  }
+
+  p{
+    text-align: left;
+  }
+
+  .button{
+    background: linear-gradient(#0073ff 0%, #f9c98e 100%);
+  }
+
+}
+
+.button {
+  width: 244px;
+  height: 64px;
+  color: wheat;
+  border-radius: 10px;
+  margin-top: 15px;
+
+  @media (max-width: 767px) {
+    display: block;
+    margin: 0 auto;
+    margin-top: 32px;
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+
+    @media (max-width: 767px) {
+      font-size: 24px;
+    }
+  }
+}
+
+.button:hover {
+  @media (hover: hover) {
+    opacity: 0.8;
+  }
+}
+
+.kansou{
+  h1{
+    color: darkgreen;
+  }
+}
+
+.omake{
+  h1{
+    color: orange;
+  }
+
+  h2{
+    color: #cab300;
+  }
+}
+
+footer {
+  font-size: 16px;
+  text-align: center;
+  color: #666666;
+  font-family: "Zen Old Mincho", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 50px 0 54px;
+
+  @media (max-width: 767px) {
+    margin: 50px 0 24px;
+  }
+}
