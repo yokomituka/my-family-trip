@@ -4,13 +4,17 @@ header {
   text-align: center;
   padding: 90px 0;
   
-  font-size: 50px;
+  font-size: 65px;
   color: #c88f5c;
   font-family: "Zen Old Mincho", serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
   margin: 0;
+
+  @media (max-width:767px) {
+    font-size: 50px;
+  }
 }
 
 .wrapper {
